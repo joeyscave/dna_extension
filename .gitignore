@@ -1,0 +1,44 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# PostgreSQL extension specific
+*.bc
+regression.diffs
+regression.out
+results/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Build and temporary files
+build/
+tmp/
+.deps/
+*.pc
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
